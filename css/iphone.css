@@ -1,0 +1,685 @@
+/*
+* @Author: Administrator
+* @Date:   2017-03-30 10:59:55
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-03-31 10:46:31
+*/
+
+
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-family: "苹方","微软雅黑";
+}
+
+
+nav{
+	width: 100%;
+	height: 44px;
+	background: #313131;
+}
+
+nav .navbar{
+	width: 1000px;
+	height: 100%;
+	margin: 0px auto;
+}
+
+.navbar a{
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.1s linear 0.1s;
+}
+
+.navbar a:hover{
+	color: #B4A8A9;
+}
+
+.navbar .one{
+	/* width: 100%;
+	height: 100%; */
+	text-align: justify;
+	line-height: 44px;
+}
+
+.navbar .one:after{
+	content: "";
+	display: inline-block;
+	width: 100%;
+}
+
+.navbar .one li{
+	display: inline-block;
+}
+
+.navbar .two{
+	/* width: 100%;
+	height: 100%; */
+	box-sizing: border-box;
+	padding: 0px 15px;
+	display: none;
+}
+
+.navbar .two li{
+	width: 33.33%;
+	height: 100%;
+	float: left;
+	text-align: center;
+	line-height: 44px;
+}
+
+.navbar .two li:first-child{
+	text-align: left;
+}
+
+.navbar .two li:last-child{
+	text-align: right;
+}
+
+
+
+
+.banner{
+	width: 100%;
+	height: 556px;
+	background: url('../img/iphone7_large.png') no-repeat;
+	background-color: #cc3341;
+	background-position: center 200px;
+	background-size: contain;
+}
+
+
+.xiaotu{
+	width: 100%;
+	overflow: hidden;
+}
+
+.xiaotu li{
+	width: 25%;
+	height: 198px;
+	float: left;
+	box-sizing: border-box;
+	border: 2px solid #ffffff;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.xiaotu li:nth-child(1){
+	background-image: url('../img/w_large.jpg');
+}
+
+.xiaotu li:nth-child(2){
+	background-image: url('../img/i_large.jpg');
+}
+
+.xiaotu li:nth-child(3){
+	background-image: url('../img/s_large.jpg');
+}
+
+.xiaotu li:nth-child(4){
+	background-image: url('../img/a_large.jpg');
+}
+
+
+.xiaotu li:nth-child(1),li:nth-child(2),li:nth-child(3){
+	border-right: 0px;
+}
+
+.xiaotu li:nth-child(1){
+	border-left: 0px;
+}
+
+.xiaotu li:nth-child(4){
+	border-right: 0px;
+}
+
+.weibu{
+	width: 100%;
+	height: 421px;
+	background: #F2F2F2;
+}
+
+.weibu .shangpinjieshao{
+	width: 980px;
+	height: 49px;
+	border-bottom: 1px solid #D6D6D6;
+	margin: 0px auto;
+	font-size: 11px;
+	color: #888888;
+	box-sizing: border-box;
+	padding-top: 15px;
+}
+
+.weibu .fen{
+	width: 980px;
+	height: 302px;
+	margin: 0px auto;
+	border-bottom: 1px solid #D6D6D6;
+}
+
+.weibu .fenlie{
+	width: 100%;
+	height: 248.5px;
+	/* float:left; */
+}
+
+.fenlie .lie{
+	width: 20%;
+	height: 100%;
+	float: left;
+	box-sizing: border-box;
+	padding-top: 16px;
+}
+
+.lie a{
+	text-decoration: none;
+	font-size: 9px;
+	color: #555555;
+}
+
+.lie a:hover{
+	color: #333333;
+	text-decoration: underline;
+}
+
+.lie dt{
+	width: 100%;
+	height: 19px;
+	font-size: 10px;
+	color: #333333;
+	line-height: 19px;
+}
+
+.lie dd{
+	width: 100%;
+	height: 22px;
+}
+
+.lie .lie-up{
+	width: 100%;
+	height: 78px;
+}
+
+.lie .lie-down{
+	width: 100%;
+	height: 139px;
+}
+
+.lie .lie-shang{
+	width: 100%;
+	height: 92.5px;
+}
+
+.lie .lie-xia{
+	width: 100%;
+	height: 124.5px;
+}
+
+.fen .xiabuwenzi{
+	width: 100%;
+	height: 53.5px;
+	font-size: 10px;
+	color: #888888;
+	box-sizing: border-box;
+	padding-top: 30px;
+}
+
+.xiabuwenzi a{
+	text-decoration: none;
+	font-size: 10px;
+	color: #0070C9;
+}
+
+.xiabuwenzi a:hover{
+	text-decoration: underline;
+}
+
+
+.weibu .bianhuan{
+	width: 980px;
+	height: 328px;
+	margin: 0px auto;
+	border-bottom: 1px solid #D6D6D6;
+	display: none;
+} 
+
+.bianhuan .shangbu{
+	width: 100%;
+	height: 292px;
+	padding-top: 1px;
+}
+
+.bianhuan .xiabu{
+	width: 100%;
+	height: 273px;
+	margin-top: 20px;
+}
+
+.xiabu li{
+	width: 100%;
+	height: 38px;
+	border-top: 1px solid #D6D6D6;
+	line-height: 38px;
+	box-sizing: border-box;
+	padding-right:9px ;
+}
+
+.xiabu li:first-child{
+	border-top: 0px;
+}
+
+
+.xiabu a{
+	font-size:10px;
+	color: #333333;
+	 text-decoration: none;
+}
+
+.xiabu a:hover{
+	color: #000000;
+}
+
+
+.xiabu span{
+	display: block;
+	float: right;
+}
+
+.bianhuan .wenzi{
+	width: 100%;
+	height: 35px;
+	font-size: 10px;
+	color: #888888;
+	box-sizing: border-box;
+	padding-top: 22px;
+}
+
+.wenzi a{
+	text-decoration: none;
+	font-size: 10px;
+	color: #0070C9;
+}
+
+.wenzi a:hover{
+	text-decoration: underline;
+}
+
+.weibu .shengming{
+	width: 980px;
+	height: 68px;
+	margin: 0px auto;
+}
+
+
+.shengming .smc{
+	width: 100%;
+	height: 44px;
+}
+
+
+.smc .left{
+	width: 595px;
+	height: 100%;
+	float: left;
+}
+
+.left .left-left{
+	width: 250px;
+	height: 22px;
+	
+	font-size: 10px;
+	color: #888888;
+	box-sizing: border-box;
+	padding-top: 6px;
+	float: left;
+}
+
+.left .left-right{
+	width: 345px;
+	height: 22px;
+	float: right;
+}
+
+.left .left-right li{
+	width: 69px;
+	height: 100%;
+	float: left;
+	line-height: 15px;
+	text-align: center;
+	box-sizing: border-box;
+	padding-top: 7px;
+}
+
+.left .left-right a{
+	font-size: 10px;
+	color: #555555;
+	text-decoration: none;
+
+}
+
+.left .left-right a:hover{
+	color: #000000;
+	text-decoration: underline;
+}
+
+.left .left-right span{
+	/* display: block; */
+	width: 1px;
+	height: 17px;
+	background: #D6D6D6;
+	float: right;
+}
+
+.left .xia{
+	width: 100%;
+	height: 25px;
+	float: left;
+	font-size: 10px;
+	color: #A49999;
+	box-sizing: border-box;
+	padding-top:10px;
+}
+
+.left .xia a{
+	font-size: 10px;
+	color: #A49999;
+	text-decoration: none; 
+}
+
+.left .xia a:hover{
+	text-decoration: underline;
+}
+
+
+.smc .right{
+	width: 43px;
+	height: 30px;
+	float: right;
+	line-height: 30px;
+}
+
+.right i{
+	font-style: normal;
+	font-size: 10px;
+	color: #555555;
+}
+
+.right a{
+	text-decoration: none;
+}
+
+.right a:hover{
+	text-decoration: underline;
+}
+
+.right img{
+	display: block;
+	float: left;
+	margin-top: 9px;
+	width: 16px;
+	height: 16px;
+}
+
+
+.shengming .er{
+	width: 100%;
+	height: 114px;
+	margin: 0px auto;
+	display: none;
+}
+
+
+.er .guojia{
+	width: 100%;
+	height: 54px;
+	box-sizing: border-box;
+	padding-top: 18px;
+}
+
+.guojia .xiao{
+	width: 43px;
+	height: 16px;
+	float: left;
+	line-height: 16px;
+}
+
+.xiao i{
+	font-style: normal;
+	font-size: 10px;
+	color: #555555;
+}
+
+.xiao a{
+	text-decoration: none;
+}
+
+.xiao a:hover{
+	text-decoration: underline;
+}
+
+.xiao img{
+	display: block;
+	float: left;
+	width: 16px;
+	height: 16px;
+}
+
+
+.weibu .er .wei{
+	width: 100%;
+	height: 52px;
+	margin-top: 36px;
+}
+
+.wei .baoliu{
+	width: 100%;
+	height: 17px;
+	font-size: 10px;
+	color: #888888;
+}
+
+.wei .chaolianjie{
+	width: 100%;
+	height: 17px;
+}
+
+.chaolianjie li{
+	width: 69px;
+	height: 100%;
+	float: left;
+	text-align: center;
+	line-height: 17px;
+}
+
+.chaolianjie li:first-child{
+	width: 55px;
+	text-align: left;
+}
+
+.chaolianjie a{
+	font-size: 10px;
+	color: #555555;
+	text-decoration: none;
+
+}
+
+.chaolianjie a:hover{
+	color: #000000;
+	text-decoration: underline;
+}
+
+.chaolianjie span{
+	
+	width: 1px;
+	height: 17px;
+	background: #D6D6D6;
+	float: right;
+}
+
+.wei .jinggongan{
+	width: 100%;
+	height: 18px;
+	font-size: 10px;
+	color: #A49999;
+	box-sizing: border-box;
+	padding-top:4px;
+}
+
+.wei .jinggongan a{
+	font-size: 10px;
+	color: #A49999;
+	text-decoration: none; 
+}
+
+.wei .jinggongan a:hover{
+	text-decoration: underline;
+}
+
+@media screen and (max-width: 1050px){
+	nav .navbar{
+		width: 100%;
+	}
+
+	.navbar .one{
+		box-sizing: border-box;
+		padding: 0px 15px;
+	}
+
+	.banner{
+		height: 542px;
+		background-image: url('../img/iphone7_medium.png');
+	}
+
+	.xiaotu li{
+		width: 50%;
+		height: 198px;
+	}
+
+	.xiaotu li:nth-child(1){
+	background-image: url('../img/w_medium.jpg');
+	}
+
+	.xiaotu li:nth-child(2){
+		background-image: url('../img/i_medium.jpg');
+	}
+
+	.xiaotu li:nth-child(3){
+		background-image: url('../img/s_medium.jpg');
+	}
+
+	.xiaotu li:nth-child(4){
+		background-image: url('../img/a_medium.jpg');
+	}
+
+	.xiaotu li:nth-child(1),li:nth-child(2){
+	border-bottom: 0px;
+	}
+
+	.weibu{
+		box-sizing: border-box;
+		padding: 0px 25px;
+	}
+	
+	.weibu .shangpinjieshao{
+		width: 100%;	}
+
+	.weibu .fen{
+		width: 100%;
+	}
+
+	.weibu .shengming{
+		width: 100%;
+	}
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+	nav .navbar{
+		width: 100%;
+	}
+
+	.navbar .one{
+		display: none;
+	}
+
+	.navbar .two{
+		display: block;
+	}
+
+	.banner{
+		height: 542px;
+		background-image: url('../img/iphone7_small.png');
+	}
+
+	.xiaotu li{
+		width: 100%;
+	}
+
+	.xiaotu li:nth-child(1){
+	background-image: url('../img/w_small.jpg');
+	}
+
+	.xiaotu li:nth-child(2){
+		background-image: url('../img/i_small.jpg');
+	}
+
+	.xiaotu li:nth-child(3){
+		background-image: url('../img/s_small.jpg');
+	}
+
+	.xiaotu li:nth-child(4){
+		background-image: url('../img/a_small.jpg');
+	}
+
+	.xiaotu li:nth-child(1),li:nth-child(2),li:nth-child(3){
+	border-bottom: 0px;
+	}
+
+	.weibu{
+		box-sizing: border-box;
+		padding: 0px 25px;
+	}
+	
+	.weibu .shangpinjieshao{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 610px){
+	.weibu .shangpinjieshao{
+		height: 66px;
+		
+	}
+}
+
+@media screen and (max-width: 753px){
+	.weibu{
+		height: 492px;
+	}
+
+
+	.weibu .fen{
+		display: none;
+	}
+
+
+	.weibu .bianhuan{
+		border-bottom: 0px;
+		width: 100%;
+		display: block;
+	}
+
+	.shengming .smc{
+		display: none;
+	}
+
+	.shengming .er{
+		display: block;
+	}
+}
